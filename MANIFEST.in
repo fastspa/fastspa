@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include fastspa *.py
+recursive-include examples *.py *.csv
+recursive-include tests *.py
+exclude .gitignore
+exclude .DS_Store
