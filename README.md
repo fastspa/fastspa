@@ -1,5 +1,10 @@
 # fastspa
 
+<p align="center">
+  <img src="docs/static/img/logo.webp" alt="fastspa logo" width="200"/>
+</p>
+
+
 A modern Python interface for Structural Path Analysis in EEIO.
 
 ## Overview
