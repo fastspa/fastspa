@@ -53,7 +53,7 @@ except ImportError:
     # IPF functionality optional
     pass
 
-__version__ = "1.1.0"
+__version__ = "0.1.0"
 __all__ = [
     "SPA",
     "Path",

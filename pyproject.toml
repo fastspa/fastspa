@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fastspa"
-version = "1.1.0"
+version = "0.1.0"
 description = "Modern Structural Path Analysis for EEIO"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [
-    { name = "SPA Contributors" }
+    { name = "Edan Weis and Victor Bunster" }
 ]
 keywords = [
     "structural path analysis",
@@ -57,10 +57,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fastspa/fastspa"
-Documentation = "https://fastspa.readthedocs.io"
+Homepage = "https://fastspa.net"
+Documentation = "https://docs.fastspa.net"
 Repository = "https://github.com/fastspa/fastspa"
-Changelog = "https://github.com/fastspa/fastspa/blob/main/CHANGELOG.md"
+Changelog = "https://github.com/fastspa/fastspa"
 
 [tool.hatch.build.targets.wheel]
 packages = ["fastspa"]
