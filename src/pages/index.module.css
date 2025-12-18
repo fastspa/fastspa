@@ -1,0 +1,108 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff !important;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%) !important;
+  color: #1a1a1a;
+}
+
+.heroBanner :global(.hero__title) {
+  color: #1a1a1a;
+}
+
+.heroBanner :global(.hero__subtitle) {
+  color: #2c3e50;
+}
+
+.heroLogo {
+  max-width: 200px;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .heroLogo {
+    max-width: 150px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.heroBanner :global(.button--secondary) {
+  background-color: #2e8555;
+  border-color: #2e8555;
+  color: #ffffff;
+}
+
+.heroBanner :global(.button--secondary:hover) {
+  background-color: #277148;
+  border-color: #277148;
+  color: #ffffff;
+}
+
+.heroBanner :global(.button--outline) {
+  border-color: #2e8555;
+  color: #ffffff;
+  background-color: #2e8555;
+  border-width: 2px;
+}
+
+.heroBanner :global(.button--outline:hover) {
+  background-color: #277148;
+  border-color: #277148;
+  color: #ffffff;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.codeSection {
+  padding: 2rem 0 4rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.codeBlock {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.codeBlock code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Basic Python syntax highlighting */
+.codeBlock :global(.language-python) {
+  color: #d4d4d4;
+}
+
+/* Comments */
+.codeBlock :global(.comment) {
+  color: #6a9955;
+}
