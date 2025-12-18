@@ -110,12 +110,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: '3ERLULRAB7',
+        appId: 'E30G7WSV9S',
   
         // Public API key: it is safe to commit it
-        apiKey: '3e8dc2f0770bcb461cdf99bf9bc6671f',
+        apiKey: '692b0f0bb4025ed5a9824a2dd10c870d',
   
-        indexName: 'FastSPA docs',
+        indexName: 'documentation',
   
         // Optional: see doc section below
         contextualSearch: true,
